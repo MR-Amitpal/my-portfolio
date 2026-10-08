@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'build' ? '/Amit-Portfolio/' : '/',
+  base: "/my-portfolio",
 }))
